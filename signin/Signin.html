@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -265,7 +265,7 @@
                         <p>Enter your credentials to access your account</p>
                     </div>
                     
-                    <form>
+                    <form onsubmit = "signIn(event)">
                         <div class="form-group">
                             <div class="input-icon">
                                 <i class="fas fa-envelope"></i>
@@ -313,13 +313,14 @@
                     </div>
                     
                     <div class="signup-link">
-                        <p>Return to home page <a href="index.html">Home Page</a></p>
-                        <p>Don't have an account? <a href="Signup.html">Sign up</a></p>
+                        <p>Return to home page <a href="../index.html">Home Page</a></p>
+                        <p>Don't have an account? <a href="../signup/Signup.html">Sign up</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script type = "module" src="./sign-in.js"></script>
 </body>
 </html>
 
